@@ -1,9 +1,8 @@
 #ifndef _PAYROLL_H
 #define _PAYROLL_H
 
-double getOvertimeHours(double totalHours);
-double getRegularHours(double totalHours);
-double getGrossPay(double regularHours, double overtimeHours, double hourlyRate);
-double getGrossPay(double salary);
+bool isValidSalaryAmount(int a_sal);
+bool isValidHourlyAmount(int hours);
+bool isValidAmountWorked(int pay_rate);
 
 #endif
